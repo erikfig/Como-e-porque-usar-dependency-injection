@@ -1,0 +1,26 @@
+{
+    "name":"erikfigueiredo/di",
+    "description": "Aula sobre injeção de dependência",
+    "minimum-stability":"stable",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "name":"",
+    "autoload": {
+        "psr-0": {
+            "Core": "src"
+        }
+    },
+    "require": {
+        "zendframework/zend-di": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ]
+}
